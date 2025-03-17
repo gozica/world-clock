@@ -20,12 +20,13 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">Detroit</option>
-        <option value="">Tokyo</option>
-        <option value="">Rome</option>
+        <option value="America/Detroit">Detroit</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Europe/Rome">Rome</option>
       </select>
+      <div id="cities">
       <div class="city" id="detroit">
         <div>
           <h2>Detroit</h2>
@@ -40,6 +41,7 @@
           <div class="date"></div>
         </div>
         <div class="time"></div>
+      </div>
       </div>
     </div>
 
