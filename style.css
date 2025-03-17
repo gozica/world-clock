@@ -7,7 +7,7 @@ body {
 
 .container {
     max-width: 400px;
-    margin: 60px auto;
+    margin: 30px auto;
     background-color: #fff;
     padding: 50px;
     border-radius: 15px;
@@ -20,6 +20,15 @@ h1, h2 {
     color: #ff69b4; 
     text-shadow: 1px 1px 5px rgba(255, 105, 180, 0.5);
 }
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 30px;
+}
+
 
 select {
     display: block;
@@ -37,10 +46,19 @@ select {
 .city {
     display: flex;
     justify-content: space-between;
-    margin: 12px 0;
-    border-bottom: 1px dashed #ffb6c1; 
-    padding: 20px 0;
+    align-items: center;
+    margin: 5px 0;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ffb6c1;
 }
+
+
+.date {
+    font-size: 17px;
+    opacity: 0.7;
+    margin-top: -5px;
+}
+
 
 .time {
     font-size: 50px;
@@ -49,9 +67,12 @@ select {
     text-shadow: 2px 2px 10px rgba(255, 105, 180, 0.5); 
 }
 
+
 footer {
     margin-top: 20px;
     font-size: 14px;
     opacity: 0.7;
     color: #777;
 }
+
+
