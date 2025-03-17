@@ -76,3 +76,13 @@ footer {
 }
 
 
+h1 a {
+    text-decoration: none; /* Removes underline */
+    color: #ff6392; /* Soft pink to match your theme */
+    font-weight: bold; 
+    transition: color 0.3s ease-in-out;
+}
+
+h1 a:hover {
+    color: #d14771; /* Slightly darker pink on hover */
+}
